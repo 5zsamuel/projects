@@ -1,5 +1,3 @@
-*
-
-!MatrixProduct.java
-!README.md
-!.gitignore
+*.class
+Java_drafts/
+Py_drafts/
