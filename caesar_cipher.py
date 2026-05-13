@@ -22,7 +22,8 @@ def decode(text, shift):
 
 
 print("=== Caesar Cipher ===")
-text_input = str(input("Enter your text to encode: "))
+choice = input("1. Encode\n2. Decode\nEnter your choice: ")
+text_input = str(input("Enter your text: "))
 
 while True:
     try:
@@ -31,7 +32,6 @@ while True:
     except ValueError:
         print("Shift must be an integer.")
 
-choice = input("1. Encode\n2. Decode\nEnter your choice: ")
 
 if choice == "1":
     print(f"Encoded text using a shift of {shift_input}: {encode(text_input, shift_input)}")
