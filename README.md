@@ -1,2 +1,2 @@
-# 5zsamuel.github.io
+# 5zsamuel
 Random projects I push from time to time to practice Git
